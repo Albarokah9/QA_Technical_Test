@@ -68,7 +68,7 @@ test.describe.serial('Gercep E2E (state berlanjut antar test)', () => {
             .first();
         await firstResult.click();
 
-        await page.waitForTimeout(2000);
+        await page.waitForTimeout(4000);
 
         // url2 = page.url();
         // await expect(url1).not.toEqual(url2);
