@@ -75,5 +75,3 @@ Jika ingin, Anda dapat menambahkan skrip ini di `package.json` agar perintah leb
 Setelah itu, jalankan: `npm run test:e2e`, `npm run test:ui`, atau `npm run report`.
 
 ---
-
-Butuh bantuan menyesuaikan test atau memperbaiki assertion yang brittle? Buka `tests/gercep.spec.js` dan beri tahu bagian mana yang ingin disesuaikan, saya siap bantu.
