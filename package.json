@@ -1,20 +1,23 @@
 {
-  "name": "qa_technical_test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-  "open": "npx playwright open",
-  "test": "playwright test",
-  "test:headed": "playwright test --headed",
-  "report": "playwright show-report"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.0"
-  }
+    "name": "qa_technical_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "ui": "playwright test --ui",
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "report": "playwright show-report",
+        "debug": "playwright test --headed --debug",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@playwright/test": "^1.55.0",
+        "@types/node": "^24.3.0",
+        "prettier": "3.6.2"
+    }
 }
