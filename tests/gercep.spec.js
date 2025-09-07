@@ -75,7 +75,7 @@ test.describe.serial('Gercep E2E (state berlanjut antar test)', () => {
 
         // Verifikasi: URL berubah ke detail brand ATAU judul/heading brand terlihat
         // await expect(page).toHaveURL(/\/gercep\/mobile-legends\/top-up-game/i);
-        await expect(page).toHaveTitle(/ML/i);
+        await expect(page).toHaveTitle(/Mobile Legends/i);
 
         // (fallback yang lebih longgar jika URL bisa berubah-ubah)
         // await expect(page.getByRole('heading', { name: /mobile legends/i })).toBeVisible();
